@@ -49,8 +49,4 @@ This project is licensed under the MIT license.
 
 ## Creators
 
-[Jazmín Orozco](https://www.linkedin.com/in/jazmin-design/)
-
-[Daniela Malqui](https://www.linkedin.com/in/danielamalqui/)
-
-[Elisa Araya](https://www.linkedin.com/in/arayamariaelisa/)
+[Ramakrushna Biswal](https://www.linkedin.com/in/RamakrushnaBiswal/) | [Github](https://github.com/ramakrushna-biswal)
