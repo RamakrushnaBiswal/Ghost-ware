@@ -1,0 +1,56 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+:root,
+[data-theme] {
+  background: oklch(var(--b2));
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 0.5rem;
+  line-height: 1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+h4 {
+  font-weight: 300;
+}
+p {
+  margin: 1rem 0;
+  font-weight: 400;
+}
+a,
+p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.logo {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.btn {
+  @apply shadow-md;
+}
+
+.btn.btn-ghost {
+  @apply shadow-none;
+}
